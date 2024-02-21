@@ -5,8 +5,8 @@
 
 for (let i = 1; i < 101; i++) {
 
-    console.log(i);
-
+    // console.log(i);
+    
     // creo le condizioni 
     // - SE un numero è multiplo sia di 3 che di 5:stamperà la stringa “FizzBuzz”
     
@@ -24,6 +24,9 @@ for (let i = 1; i < 101; i++) {
 
         console.log('Buzz');
 
+    }
+    else {
+        console.log(i);
     }
 
 
